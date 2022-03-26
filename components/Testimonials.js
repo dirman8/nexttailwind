@@ -61,8 +61,8 @@ export default function Testimonials () {
               </div>
               <div className="ud-testimonial-content mb-6">
                 <p className="text-base tracking-wide text-body-color">
-                  “Our members are so impressed. It's intuitive. It's clean.
-                  It's distraction free. If you're building a community.
+                  “Our members are so impressed. Its intuitive. Its clean.
+                  Its distraction free. If you're building a community.
                 </p>
               </div>
               <div className="ud-testimonial-info flex items-center">
@@ -125,8 +125,8 @@ export default function Testimonials () {
               </div>
               <div className="ud-testimonial-content mb-6">
                 <p className="text-base tracking-wide text-body-color">
-                  “Our members are so impressed. It's intuitive. It's clean.
-                  It's distraction free. If you're building a community.
+                  “Our members are so impressed. Its intuitive. Its clean.
+                  Its distraction free. If youre building a community.
                 </p>
               </div>
               <div className="ud-testimonial-info flex items-center">
@@ -184,8 +184,8 @@ export default function Testimonials () {
               </div>
               <div className="ud-testimonial-content mb-6">
                 <p className="text-base tracking-wide text-body-color">
-                  “Our members are so impressed. It's intuitive. It's clean.
-                  It's distraction free. If you're building a community.
+                  “Our members are so impressed. Its intuitive. Its clean.
+                  Its distraction free. If youre building a community.
                 </p>
               </div>
               <div className="ud-testimonial-info flex items-center">

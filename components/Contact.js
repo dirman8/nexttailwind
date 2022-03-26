@@ -9,7 +9,7 @@ export default function Contact() {
                  <div className="ud-contact-title mb-12 lg:mb-[150px]">
                    <span className="text-dark font-semibold text-base mb-5">CONTACT US</span>
                    <h2 className="text-[35px] font-semibold">
-                     Let's talk about <br />
+                     Lets talk about <br />
                      Love to hear from you!
                    </h2>
                  </div>
@@ -46,25 +46,25 @@ export default function Contact() {
                  <h3 className="font-semibold mb-8 text-2xl md:text-[26px]">Send us a Message</h3>
                  <form>
                    <div className="mb-6">
-                     <label for="fullName" className="block text-xs text-dark">
+                     <label htmlFor="fullName" className="block text-xs text-dark">
                        Full Name*
                      </label>
                      <input type="text" name="fullName" placeholder="Adam Gelius" className=" w-full border-0 border-b border-[#f1f1f1] focus:border-primary focus:outline-none py-4 " />
                    </div>
                    <div className="mb-6">
-                     <label for="email" className="block text-xs text-dark">
+                     <label htmlFor="email" className="block text-xs text-dark">
                        Email*
                      </label>
                      <input type="email" name="email" placeholder="example@yourmail.com" className=" w-full border-0 border-b border-[#f1f1f1] focus:border-primary focus:outline-none py-4 " />
                    </div>
                    <div className="mb-6">
-                     <label for="phone" className="block text-xs text-dark">
+                     <label htmlFor="phone" className="block text-xs text-dark">
                        Phone*
                      </label>
                      <input type="text" name="phone" placeholder="+885 1254 5211 552" className=" w-full border-0 border-b border-[#f1f1f1] focus:border-primary focus:outline-none py-4 " />
                    </div>
                    <div className="mb-6">
-                     <label for="message" className="block text-xs text-dark">
+                     <label htmlFor="message" className="block text-xs text-dark">
                        Message*
                      </label>
                      <textarea name="message" rows="1" placeholder="type your message here" className=" w-full border-0 border-b border-[#f1f1f1] focus:border-primary focus:outline-none py-4 resize-none " ></textarea>
