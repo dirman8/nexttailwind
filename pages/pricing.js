@@ -2,6 +2,7 @@ import Head from 'next/head'
 import React, { useEffect, Fragment } from "react";
 import About from '../components/About';
 import MetaTags from "react-meta-tags";
+import Link from 'next/link';
 
 const isServer = typeof window === "undefined";
 const WOW = !isServer ? require("wow.js") : null;
@@ -56,24 +57,24 @@ export default function Pricing () {
                     </a>
                   </li>
                   <li className="relative group">
-                    <a href="/#about" className=" ud-menu-scroll text-base text-dark lg:text-white lg:group-hover:opacity-70 lg:group-hover:text-white group-hover:text-primary py-2 lg:py-6 lg:inline-flex lg:px-0 flex mx-8 lg:mr-0 lg:ml-7 xl:ml-12 " >
+                    <Link href="/#about" className=" ud-menu-scroll text-base text-dark lg:text-white lg:group-hover:opacity-70 lg:group-hover:text-white group-hover:text-primary py-2 lg:py-6 lg:inline-flex lg:px-0 flex mx-8 lg:mr-0 lg:ml-7 xl:ml-12 " >
                       About
-                    </a>
+                    </Link>
                   </li>
                   <li className="relative group">
-                    <a href="/#pricing" className=" ud-menu-scroll text-base text-dark lg:text-white lg:group-hover:opacity-70 lg:group-hover:text-white group-hover:text-primary py-2 lg:py-6 lg:inline-flex lg:px-0 flex mx-8 lg:mr-0 lg:ml-7 xl:ml-12 " >
+                    <Link href="/#pricing" className=" ud-menu-scroll text-base text-dark lg:text-white lg:group-hover:opacity-70 lg:group-hover:text-white group-hover:text-primary py-2 lg:py-6 lg:inline-flex lg:px-0 flex mx-8 lg:mr-0 lg:ml-7 xl:ml-12 " >
                       Pricing
-                    </a>
+                    </Link>
                   </li>
                   <li className="relative group">
-                    <a href="/#team" className=" ud-menu-scroll text-base text-dark lg:text-white lg:group-hover:opacity-70 lg:group-hover:text-white group-hover:text-primary py-2 lg:py-6 lg:inline-flex lg:px-0 flex mx-8 lg:mr-0 lg:ml-7 xl:ml-12 " >
+                    <Link href="/#team" className=" ud-menu-scroll text-base text-dark lg:text-white lg:group-hover:opacity-70 lg:group-hover:text-white group-hover:text-primary py-2 lg:py-6 lg:inline-flex lg:px-0 flex mx-8 lg:mr-0 lg:ml-7 xl:ml-12 " >
                       Team
-                    </a>
+                    </Link>
                   </li>
                   <li className="relative group">
-                    <a href="/#contact" className=" ud-menu-scroll text-base text-dark lg:text-white lg:group-hover:opacity-70 lg:group-hover:text-white group-hover:text-primary py-2 lg:py-6 lg:inline-flex lg:px-0 flex mx-8 lg:mr-0 lg:ml-7 xl:ml-12 " >
+                    <Link href="/#contact" className=" ud-menu-scroll text-base text-dark lg:text-white lg:group-hover:opacity-70 lg:group-hover:text-white group-hover:text-primary py-2 lg:py-6 lg:inline-flex lg:px-0 flex mx-8 lg:mr-0 lg:ml-7 xl:ml-12 " >
                       Contact
-                    </a>
+                    </Li>
                   </li>
                   <li className="relative group submenu-item">
                     <a href="javascript:void(0)" className=" text-base text-dark lg:text-white lg:group-hover:opacity-70 lg:group-hover:text-white group-hover:text-primary py-2 lg:py-6 lg:inline-flex lg:pl-0 lg:pr-4 flex mx-8 lg:mr-0 lg:ml-8 xl:ml-12 relative after:absolute after:w-2 after:h-2 after:border-b-2 after:border-r-2 after:border-current after:rotate-45 lg:after:right-0 after:right-1 after:top-1/2 after:-translate-y-1/2 after:mt-[-2px] " >
