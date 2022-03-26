@@ -17,7 +17,7 @@ export default function Pricing () {
          <Head>
            <MetaTags>
            <meta charset="UTF-8" />
-           <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
+           {/* <meta httpEquiv="X-UA-Compatible" content="IE=edge" /> */}
            <meta name="viewport" content="width=device-width, initial-scale=1.0" />
            <title>Pricing | Play Tailwind</title>
            <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
