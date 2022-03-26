@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import React, { useEffect, Fragment } from "react";
 import About from '../components/About';
+import MetaTags from "react-meta-tags";
 
 const isServer = typeof window === "undefined";
 const WOW = !isServer ? require("wow.js") : null;
@@ -14,11 +15,13 @@ export default function Pricing () {
      return (
        <Fragment>
          <Head>
+           <MetaTags>
            <meta charset="UTF-8" />
            <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
            <meta name="viewport" content="width=device-width, initial-scale=1.0" />
            <title>Pricing | Play Tailwind</title>
            <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
+           </MetaTags>
          </Head>
 
     <div className=" ud-header bg-transparent absolute top-0 left-0 z-40 w-full flex items-center " > <div className="container">
